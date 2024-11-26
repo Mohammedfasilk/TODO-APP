@@ -27,8 +27,6 @@ function addItem() {
     container.setAttribute("class","icon-wrap")
     li.appendChild(container);
   
-    // checkBox.setAttribute("onclick","toCheck()");
-    // li.innerHTML = inputData;
     input.value = "";
 
     let trash = document.createElement("i");
