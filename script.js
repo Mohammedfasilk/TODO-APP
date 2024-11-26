@@ -69,11 +69,7 @@ function toCheck(event) {
   }
  
 }
-// function toCheck(){
-//     if(a.checked){
-//         a[0].document.getElementById('item').remove();
-//     }
-// }
+
 
 btn.addEventListener("click", addItem);
 list.addEventListener("click", deleteItem);
